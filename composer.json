@@ -1,7 +1,13 @@
 {
     "name": "pierre/php-composer",
-    "description": "Un projet piloté par Composer",
+    "description": "Un projet piloté avec Composer",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pbreteche/php-poo-21w41.git"
+        }
+    ],
     "require": {
         "php": ">=7.2",
         "ext-curl": "*",
@@ -9,7 +15,8 @@
         "monolog/monolog": "^2.3"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.2"
+        "friendsofphp/php-cs-fixer": "^3.2",
+        "dawan/php-poo": "*"
     },
     "license": "MIT",
     "autoload": {

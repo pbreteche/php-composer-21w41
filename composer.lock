@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef86c6631a3366e008d5e2d276a50feb",
+    "content-hash": "15bc24a271a1430eacde0539d3df299b",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -301,6 +301,43 @@
                 }
             ],
             "time": "2021-07-31T17:03:58+00:00"
+        },
+        {
+            "name": "dawan/php-poo",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pbreteche/php-poo-21w41.git",
+                "reference": "04ba6c52bf765e8b19cd3da089cc56ff732f6ffd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pbreteche/php-poo-21w41/zipball/04ba6c52bf765e8b19cd3da089cc56ff732f6ffd",
+                "reference": "04ba6c52bf765e8b19cd3da089cc56ff732f6ffd",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Dawan\\": "src/",
+                    "Pierre\\": "fake_vendor/Pierre/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Bretéché",
+                    "email": "pbreteche@dawan.fr"
+                }
+            ],
+            "description": "Projet de formation Orienté Objet",
+            "support": {
+                "source": "https://github.com/pbreteche/php-poo-21w41/tree/v1.0.0",
+                "issues": "https://github.com/pbreteche/php-poo-21w41/issues"
+            },
+            "time": "2021-10-12T14:59:38+00:00"
         },
         {
             "name": "doctrine/annotations",
