@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\lsb\Fille;
+use App\lsb\Mere;
 use App\Traits\DemoTrait;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
@@ -18,6 +20,9 @@ class App
 
         // add records to the log
         $log->warning($this->demo());
+        $log->warning((new Fille())->whoAmI());
+        $log->warning((new Fille())->whoAmIStatic());
+        $log->warning((new Mere())->whoAmI());
         $log->error('Bar');
     }
 }
