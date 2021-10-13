@@ -3,6 +3,9 @@
     "description": "Un projet piloté par Composer",
     "type": "project",
     "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-pdo": "*",
         "monolog/monolog": "^2.3"
     },
     "require-dev": {
@@ -19,5 +22,10 @@
             "name": "Pierre Bretéché",
             "email": "pbreteche@dawan.fr"
         }
-    ]
+    ],
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    }
 }
