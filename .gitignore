@@ -3,3 +3,4 @@
 
 # Temp/runtime directory
 /var/
+.php-cs-fixer.cache
